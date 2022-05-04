@@ -3,10 +3,6 @@ import "./App.css";
 import axios from "axios";
 const charApiUrl = "/api/chat.json";
 
-const initialInput = {
-  user: "",
-  message: "",
-};
 export default function App() {
   const [chatInput, setChatInput] = useState();
   const [chatHistory, setChatHistory] = useState([]);
